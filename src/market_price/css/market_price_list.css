@@ -1,0 +1,82 @@
+#market_price_list_div_inner {
+    float: left;
+    width: 99%; /* 1000px */
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px #eee;
+    border: 1px solid #eee;
+}
+
+#market_price_list_div_inner>#market_price_list_div_inner_img {
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+#market_price_list_div_inner_img>img {
+    float: left;
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-radius: 4px;
+}
+
+#market_price_list_div_inner>#market_price_list_div_inner_content_price {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+#market_price_list_div_inner_content_price>#market_price_list_div_inner_content_price_top {
+    float: left;
+    width: 100%;
+    height: 35px;
+}
+
+#market_price_list_div_inner_content_price_top>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+#market_price_list_div_inner_content_price>#market_price_list_div_inner_content_price_bottom {
+    float: left;
+    width: 100%;
+    height: 35px;
+}
+
+#market_price_list_div_inner_content_price_bottom>p {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgray;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+
+#market_price_list_div_inner>#market_price_list_div_inner_content_right {
+    float: left;
+    width: 690px;
+    height: 100%;
+}
+
+#market_price_list_div_inner_content_right>button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(240, 234, 234);
+    border: 1px solid rgb(240, 234, 234);
+    border-radius: 6px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}

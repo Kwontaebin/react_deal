@@ -1,0 +1,41 @@
+#markey_price_div {
+    margin: 30px auto;
+    width: 1000px;
+    height: 600px;
+}
+
+#markey_price_div>#markey_price_div_header {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#markey_price_div_header>p {
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+}
+
+#markey_price_div_header>select {
+    float: right;
+    width: 120px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    border-radius: 4px;
+}
+
+#markey_price_div>#markey_price_div_main {
+    float: left;
+    width: 100%;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+#markey_price_div_main::-webkit-scrollbar {
+    display: none;
+}

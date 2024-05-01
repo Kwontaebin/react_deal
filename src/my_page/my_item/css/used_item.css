@@ -1,0 +1,112 @@
+#used_item_div_inner {
+    float: left;
+    width: 250px;
+    height: 310px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+#used_item_div_inner>#used_item_div_inner_img {
+    float: left;
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#used_item_div_inner_img>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#used_item_div_inner>#used_item_div_inner_name_date {
+    float: left;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#used_item_div_inner_name_date>p {
+    display: inline;
+    font-weight: bold;
+}
+
+#used_item_div_inner_name_date>#used_item_div_inner_name {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+
+#used_item_div_inner_name_date>#used_item_div_inner_date {
+    font-size: 12px;
+    position: relative;
+    left: 130px;
+}
+
+#used_item_div_inner>#used_item_div_inner_content {
+    float: left;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#used_item_div_inner_content>p {
+    /* float: left; */
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+    bottom: 13px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#used_item_div_inner>#used_item_div_inner_price {
+    float: left;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#used_item_div_inner_price>p {
+    float: left;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    bottom: 13px;
+}
+
+#used_item_div_inner>#used_item_div_inner_footer {
+    float: left;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+
+#used_item_div_inner_footer>button {
+    float: left;
+    width: 70px;
+    height: 30px;
+}
+
+#used_item_div_inner_footer>#used_item_div_inner_footer_update_btn {
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+#used_item_div_inner_footer>#used_item_div_inner_footer_delete_btn {
+    position: relative;
+    left: 60px;
+    top: 5px;
+}

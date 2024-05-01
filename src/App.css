@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "basic_font";
+  src: url('./font/Cafe24Moyamoya-Regular-v1.0.ttf');
+}
+
+#app {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+}
+
+p, span, h1 {
+  cursor: pointer;
+}
+
+select, input {
+  outline: none;
+}

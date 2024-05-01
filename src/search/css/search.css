@@ -1,0 +1,10 @@
+#search_div {
+    margin: 30px auto;
+    width: 1000px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#search_div::-webkit-scrollbar {
+    display: none;
+}

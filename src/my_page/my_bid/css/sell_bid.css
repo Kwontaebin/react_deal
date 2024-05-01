@@ -1,0 +1,52 @@
+#sell_bid_div_inner {
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin: 10px 0 0 20px;
+    position: relative;
+    left: 80px;
+    border: 1px solid #eee;
+}
+
+#sell_bid_div_inner>#sell_bid_div_inner_header {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+#sell_bid_div_inner_header>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#sell_bid_div_inner>#sell_bid_div_inner_main {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#sell_bid_div_inner_main>div {
+    float: left;
+    width: 100%;
+    height: 33px;
+}
+
+#sell_bid_div_inner_main_content>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#sell_bid_div_inner_main_price>p {
+    font-weight: bold;
+}
+
+#sell_bid_div_inner_main_favorite_view>p {
+    float: left;
+    font-size: 13px;
+    color: darkgray;
+    margin-right: 10px;
+    position: relative;
+    bottom: 6px;
+}

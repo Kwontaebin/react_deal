@@ -1,0 +1,69 @@
+#sign {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+#sign>#sign_inner {
+    margin: 0 auto;
+    width: 600px;
+    height: 530px;
+    position: relative;
+    top: 20px;
+}
+
+#sign_inner>#sign_inner_header {
+    float: left;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #eee;
+}
+
+#sign_inner_header>#sign_inner_header_text {
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sign_inner>#sign_inner_center {
+    float: left;
+    width: 100%;
+    height: 450px;
+}
+
+#sign_inner_center>div {
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#sign_inner_center>div>p {
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+}
+
+#sign_inner_center>div>input {
+    float: left;
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    width: 380px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#sign_inner_center>button {
+    float: left;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}

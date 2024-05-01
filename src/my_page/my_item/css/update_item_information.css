@@ -1,0 +1,98 @@
+#update_item_information_div {
+    margin: 20px auto;
+    width: 1000px;
+    height: 600px;
+}
+
+#update_item_information_div>#update_item_information_div_header {
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+
+#update_item_information_div_header>#update_item_information_div_header_inner {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+}
+
+#update_item_information_div_header_inner>img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+#update_item_information_div_header_inner>label {
+    float: left;
+    position: relative;
+    left: 55px;
+    top: 200px;
+    padding: 10px 25px; /* 10px = height, 25px = width  */
+    background-color:#FF6600;
+    border-radius: 4px;
+    color: white;
+}
+
+#update_item_information_div>#update_item_information_div_content {
+    float: left;
+    width: 100%;
+    height: 125px;
+}
+
+#update_item_information_div_content>input {
+    float: left;
+    width: 60%;
+    height: 40px;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+#update_item_information_div>#update_item_information_div_type {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#update_item_information_div_type>select {
+    float: left;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    left: 330px;
+}
+
+#update_item_information_div_type>input {
+    float: left;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 27px;
+    left: 350px;
+}
+
+#update_item_information_div>#update_item_information_div_footer {
+    float: left;
+    width: 100%;
+    height: 75px;
+}
+
+#update_item_information_div_footer>button {
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: #FF6600;
+    border: 1px solid #FF6600;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+    left: 430px;
+}

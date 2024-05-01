@@ -1,0 +1,117 @@
+#my_page {
+    margin: 0 auto;
+    width: 1200px;
+    height: 705px;
+}
+
+#my_page>#my_page_header {
+    float: left;
+    width: 1000px;
+    height: 40px;
+    background-color: #eee;
+    position: relative;
+    top: 20px;
+}
+
+#my_page_header>div {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+#my_page_header>div>p {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.where_div {
+    background-color: pink !important;
+    border-bottom: 2px solid crimson;
+}
+
+#my_page>#my_page_my_item {
+    float: left;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 60px;
+}
+
+#my_page_my_item>#my_page_my_item_header {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#my_page_my_item_header>p {
+    display: inline;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.p_where {
+    color: pink  !important;
+}
+
+#my_page_my_item>#my_page_my_item_used {
+    float: left;
+    width: 100%;
+    height: 650px;
+}
+
+#my_page_my_item>#my_page_my_item_free {
+    float: left;
+    width: 100%;
+    height: 650px;
+    display: none;
+}
+
+#my_page_my_item>#my_page_my_item_footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#my_page>#my_page_update_information {
+    float: left;
+    width: 100%;
+    height: 605px;
+    background-color: lavenderblush;
+    position: relative;
+    top: 60px;
+    display: none;
+}
+
+#my_page>#my_page_favorite_item {
+    float: left;
+    width: 100%;
+    height: 605px;
+    position: relative;
+    top: 60px;
+    display: none;
+}
+
+#my_page>#my_page_bid {
+    float: left;
+    width: 100%;
+    height: 605px;
+    position: relative;
+    top: 60px;
+    display: none;
+}
+
+#my_page>#my_page_post_item {
+    float: left;
+    width: 100%;
+    height: 605px;
+    position: relative;
+    top: 60px;
+    display: none;
+}

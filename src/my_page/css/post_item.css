@@ -1,0 +1,84 @@
+#post_item_div {
+    float: left;
+    width: 100%;
+    height: 100%; /* 605px */
+}
+
+#post_item_div>#post_item_div_header {
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+}
+
+#input_file_button{
+    padding: 10px 25px; /* 10px = height, 25px = width  */
+    background-color:#FF6600;
+    border-radius: 4px;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 175px;
+}
+
+#post_item_div_header>#img_preview {
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 320px;
+    border-radius: 10px;
+}
+
+#post_item_div>#post_item_div_center {
+    margin: 0 auto;
+    width: 800px;
+    height: 105px;
+}
+
+#post_item_div_center>input {
+    float: left;
+    width: 750px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#post_item_div>#post_item_div_footer {
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+}
+
+#post_item_div_footer>select {
+    float: left;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+#post_item_div_footer>input {
+    float: left;
+    width: 300px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#post_item_div_footer>button {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: darkgrey;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
