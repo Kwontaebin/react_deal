@@ -73,3 +73,21 @@
  ┣ 📜App.css <br/>
  ┣ 📜App.js <br/>
  ┗ 📜server.js <br/>
+
+## 3. 주요 기능
+### 회원가입
+- 아이디와 이름중 일치하는 회원이 있는경우입니다
+<img src="/images/sign_img2.png" width="600" height="400">
+<img src="/images/sign_img5.png" width="600" height="400">
+
+- 비밀번호와 비밀번호 확인이 일치하지 않는경우입니다
+<img src="/images/sign_img4.png" width="600" height="400">
+
+- 모두다 작성하지 않고 빈칸이 하나라도 있는경우입니다
+<img src="/images/sign_img3.png" width="600" height="400">
+
+- 회원가입에 성공한 경우
+- 회원가입에 성공하면 로그인페이지로 이동합니다.
+<img src="/images/sign_img6.png" width="600" height="400">
+
+## 로그인
