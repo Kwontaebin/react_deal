@@ -118,3 +118,8 @@
 - react-js-pagination 라이브러리를 사용해서 페이지네이션 기능을 만들었습니다.
 <img src="/images/item_page_img1.png" width="600" height="400">
 <img src="/images/item_page_img2.png" width="600" height="400">
+
+## 실시가 시세 페이지
+- 중고물품의 가격에 따라 가격이 높은순, 낮은순으로 상품을 보여줍니다.
+<img src="/images/price_page_img1.png" width="600" height="400">
+<img src="/images/price_page_img2.png" width="600" height="400">
