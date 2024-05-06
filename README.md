@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# **React 중고거래 프로젝트**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+프로젝트 소개
+- 물건을 등록해서 구매하고 판매할수 있습니다.
+- 검색을 통해 자신이 원하는 상품을 검색할수 있습니다.
+- 자신의 페이지에서 자신이 구매,판매 목록을 볼수있습니다.
 
-## Available Scripts
+## 1. 개발 환경
+- #### Front-end : Css, Html, Javascript, Jquery, React
+- #### back-end : Mysql, Node-js
+- #### 디자인 참고 : 링크 https://velog.io/@koohs414/React-Project-중고거래-서비스-Zoopzoop-Market
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 2. 프로젝트 구조
+📦src <br/>
+ ┣ 📂config <br/>
+ ┃ ┣ 📜db.js <br/>
+ ┃ ┗ 📜multi_db.js <br/>
+ ┣ 📂free_page <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜free_item_list.js <br/>
+ ┃ ┃ ┗ 📜free_page.js <br/>
+ ┣ 📂header <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┗ 📜header.js <br/>
+ ┣ 📂login_sign <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜login.js <br/>
+ ┃ ┃ ┗ 📜sign.js <br/>
+ ┣ 📂main <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜main.js <br/>
+ ┃ ┃ ┣ 📜main_free.js <br/>
+ ┃ ┃ ┣ 📜main_free_list.js <br/>
+ ┃ ┃ ┣ 📜main_slider.js <br/>
+ ┃ ┃ ┣ 📜main_used.js <br/>
+ ┃ ┃ ┗ 📜main_used_list.js <br/>
+ ┣ 📂market_price <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜market_price.js <br/>
+ ┃ ┃ ┗ 📜market_price_list.js <br/>
+ ┣ 📂my_page <br/>
+ ┃ ┣ 📂js <br/>
+ ┃ ┃ ┣ 📜my_page.js <br/>
+ ┃ ┃ ┗ 📜post_item.js <br/>
+ ┃ ┣ 📂my_bid <br/>
+ ┃ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┃ ┣ 📜bid.js <br/>
+ ┃ ┃ ┃ ┣ 📜buy_bid.js <br/>
+ ┃ ┃ ┃ ┗ 📜sell_bid.js <br/>
+ ┃ ┣ 📂my_favorite_item <br/>
+ ┃ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┃ ┣ 📜favorite_item.js <br/>
+ ┃ ┃ ┃ ┗ 📜favorite_item_list.js <br/>
+ ┃ ┗ 📂my_item <br/>
+ ┃ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┃ ┣ 📜free_item.js <br/>
+ ┃ ┃ ┃ ┣ 📜update_item.js <br/>
+ ┃ ┃ ┃ ┣ 📜update_item_information.js <br/>
+ ┃ ┃ ┃ ┗ 📜used_item.js <br/>
+ ┣ 📂search <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜search.js <br/>
+ ┃ ┃ ┗ 📜search_list.js <br/>
+ ┣ 📂used_page <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜used_item_list.js <br/>
+ ┃ ┃ ┗ 📜used_page.js <br/>
+ ┣ 📂view_detail <br/>
+ ┃ ┗ 📂js <br/>
+ ┃ ┃ ┣ 📜recommend_item.js <br/>
+ ┃ ┃ ┣ 📜view_detail.js <br/>
+ ┃ ┃ ┗ 📜view_detail_list.js <br/>
+ ┣ 📜App.css <br/>
+ ┣ 📜App.js <br/>
+ ┗ 📜server.js <br/>
