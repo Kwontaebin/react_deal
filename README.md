@@ -174,3 +174,11 @@
 - 판매가 완료된 상품은 이미지에 "판매완료" 글자가 적혀있습니다.
 - 판매가 완료된 상품은 구매하실수 없습니다.
 <img src="/images/view_detail_img4.png" width="600" height="400">
+
+## 상품 검색하기
+- 사용자가 찾고 싶은 상품을 검색(제목을 입력)을 통해 찾을수 있습니다.
+<img src="/images/search_item_img1.png" width="600" height="400">
+<img src="/images/search_item_img2.png" width="600" height="400">
+
+- 만약에 일치하는 검색결과가 없다면 "해당 품목은 없습니다." 경고창을 띄웁니다.
+<img src="/images/search_item_img3.png" width="600" height="400">
