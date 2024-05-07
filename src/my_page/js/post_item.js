@@ -71,6 +71,8 @@ export default function Post_item() {
         } else if(item_content === null) {
             alert('물건을 설명해주세요');
             return;
+        } else if(item_type === "used" && item_price === "0") {
+            alert('가격을 입력하세요')
         } else {
             const post_item_obj = { user_id:id, name:name, type:item_type, price:item_price, content:item_content, img:item_img };
             const result = await axios.post('/post_item', post_item_obj);
