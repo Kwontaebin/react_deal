@@ -123,3 +123,36 @@
 - 중고물품의 가격에 따라 가격이 높은순, 낮은순으로 상품을 보여줍니다.
 <img src="/images/price_page_img1.png" width="600" height="400">
 <img src="/images/price_page_img2.png" width="600" height="400">
+
+## 내 페이지
+- 자신인 등록한 상품들을 확인하고 수정, 삭제할수 있습니다.
+<img src="/images/update_item_img.png" width="600" height="400">
+<img src="/images/delete_item_img.png" width="600" height="400">
+- 이미 판매가 완료된 상품은 수정, 삭제가 불가능합니다.
+<img src="/images/update_item_img2.png" width="600" height="400">
+
+- 나의 관심목록을 확인할수있습니다.
+- 관심목록이 없는 경우에는 관심목록이 없다는 문자를 보여줍니다.
+<img src="/images/favorite_img1.png" width="600" height="400">
+<img src="/images/favorite_img2.png" width="600" height="400">
+
+- 나의 판매, 구매 목록을 확인할수있습니다.
+<img src="/images/my_buy_list.png" width="600" height="400">
+<img src="/images/my_sell_list.png" width="600" height="400">
+
+- 사용자가 판매하거나, 무료로 나눔을 할 물건을 등록할수있습니다.
+<img src="/images/post_item_img1.png" width="600" height="400">
+
+- 물건 이미지, 물건 설명 중 하나라도 적히지 않았다면 물건을 등록할수 없습니다.
+- 물건이 중고거래일 경우에 가격이 입력되어있지 않다면 물건을 등록할수 없습니다.
+<img src="/images/post_item_img2.png" width="600" height="400">
+<img src="/images/post_item_img3.png" width="600" height="400">
+<img src="/images/post_item_img4.png" width="600" height="400">
+- 물건이 무료나눔일 경우 물건의 가격을 입력하는 Input창에 값을 넣을수없습니다.
+<img src="/images/post_item_img5.png" width="600" height="400">
+
+## 상품 상세보기
+- 사용자가 등록한 상품의 정보를 상세하게 볼수있습니다.
+- 상품이 중고라면 등록된 중고 물품들을 확인할수있습니다.
+- 상품이 무료라면 등록된 무료 물품들을 확인할수있습니다.
+- 상품을 관심목록에 추가할수 있습니다.
