@@ -96,7 +96,7 @@
 - 회원가입에 성공하면 로그인페이지로 이동합니다.
 <img src="/images/sign_img6.png" width="600" height="400">
 
-## 로그인
+### 로그인
 - 아이디와 비밀번호를 압력후 로그인버튼을 누르면 회원정보에서 일치하는 정보를 찾고 일치하는 정보가 없으면 경고창을 띄웁니다.
 <img src="/images/login_img1.png" width="600" height="400">
 <img src="/images/login_img2.png" width="600" height="400">
@@ -105,12 +105,12 @@
 - 로그인에 성공하면 홈 화면으로 이동합니다.
 <img src="/images/login_img3.png" width="600" height="400">
 
-## 로그아웃
+### 로그아웃
 - 로그인에 성공하면 생기는 로그아웃 글자를 클릭하면 로그아웃을 할수있습니다.
 <img src="/images/logout_img1.png" width="600" height="400">
 <img src="/images/logout_img2.png" width="600" height="400">
 
-## 메인 페이지
+### 메인 페이지
 - react-slick 라이브러리를 사용해서 이미지 슬라이드가 가능하게 했습니다.
 <img src="/images/main_img1.png" width="600" height="400">
 
@@ -119,7 +119,7 @@
 - 더 알아보기를 클릭하면 중고거래, 무료나눔 페이지로 이동해서 더 많은 상품들을 확인할수 있습니다.
 <img src="/images/main_img2.png" width="600" height="400">
 
-## 중고 물품 페이지, 무료 나눔 페이지
+### 중고 물품 페이지, 무료 나눔 페이지
 - 모든 중고물품, 무료나눔 상품들을 확인할수있습니다.
 - react-js-pagination 라이브러리를 사용해서 페이지네이션 기능을 만들었습니다.
 <img src="/images/item_page_img1.png" width="600" height="400">
@@ -129,12 +129,12 @@
 <img src="/images/item_page_img3.png" width="600" height="400">
 
 
-## 실시가 시세 페이지
+### 실시가 시세 페이지
 - 중고물품의 가격에 따라 가격이 높은순, 낮은순으로 상품을 보여줍니다.
 <img src="/images/price_page_img1.png" width="600" height="400">
 <img src="/images/price_page_img2.png" width="600" height="400">
 
-## 내 페이지
+### 내 페이지
 - 자신인 등록한 상품들을 확인하고 수정, 삭제할수 있습니다.
 <img src="/images/update_item_img.png" width="600" height="400">
 <img src="/images/delete_item_img.png" width="600" height="400">
@@ -165,7 +165,7 @@
 - 물건이 무료나눔일 경우 물건의 가격을 입력하는 Input창에 값을 넣을수없습니다.
 <img src="/images/post_item_img5.png" width="600" height="400">
 
-## 상품 상세보기
+### 상품 상세보기
 - 사용자가 등록한 상품의 정보를 상세하게 볼수있습니다.
 - 상품이 중고물품 이라면 등록된 중고 물품들을 확인할수있습니다.
 - 상품이 무료삼품 이라면 등록된 무료 물품들을 확인할수있습니다.
@@ -181,7 +181,7 @@
 - 판매가 완료된 상품은 구매하실수 없습니다.
 <img src="/images/view_detail_img4.png" width="600" height="400">
 
-## 상품 검색하기
+### 상품 검색하기
 - 사용자가 찾고 싶은 상품을 검색(제목을 입력)을 통해 찾을수 있습니다.
 <img src="/images/search_item_img1.png" width="600" height="400">
 <img src="/images/search_item_img2.png" width="600" height="400">
