@@ -9,7 +9,8 @@
 - [개발 환경](#1-개발-환경)
 - [프로젝트 구조](#2-프로젝트-구조)
 - [주요 기능](#3-주요-기능)
-- [후기](#4-후기)
+- [성능](#4-성능)
+- [후기](#5-후기)
 
 ## 1. 개발 환경
 - #### Front-end : Css, Html, Javascript, Jquery, React
@@ -189,5 +190,11 @@
 - 만약에 일치하는 검색결과가 없다면 "해당 품목은 없습니다." 경고창을 띄웁니다.
 <img src="/images/search_item_img3.png" width="600" height="400">
 
-## 4. 후기
+## 4. 성능
+- Lighthouse를 사용하여 측정한 프로젝트의 성능입니다.
+<img src="/images/lightHouse_img1.png" width="600" height="400"   style="flex: 1;">
+<img src="/images/lightHouse_img2.png" width="800" height="400"   style="flex: 1;">
+<img src="/images/lightHouse_img3.png" width="800" height="400"   style="flex: 1;">
+
+## 5. 후기
 처음 사용해보는 라이브러리를 사용해서 프로젝트를 완성시켜서 개인적으로 얻는것이 많았습니다. 이 프로젝트는 새로운 라이브러리를 사용하는 것을 무서워하지 않게 된 프로젝트입니다.
